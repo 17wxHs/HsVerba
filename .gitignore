@@ -1,0 +1,49 @@
+# ---- 依赖 ----
+node_modules/
+package-lock.json.bak
+
+# ---- Rust / Tauri 构建产物 ----
+app/src-tauri/target/
+app/src-tauri/gen/schemas/
+
+# ---- 前端构建产物（vite，由 npm run build 生成）----
+app/dist/
+
+# ---- 测试生成物（跑 make_fixtures.py / pX_test.py 会产生）----
+app/p3_fixtures/
+app/p3_out/
+app/__pycache__/
+__pycache__/
+*.pyc
+*.pyd
+
+# ---- 安装包：走 GitHub Releases 发布，不塞进仓库历史 ----
+dist/*.exe
+dist/*.msi
+dist/*.nsis.zip
+dist/*.sig
+
+# ---- 本地数据（含 API Key，绝不入库）----
+*.db
+*.db-journal
+*.db-wal
+settings.json
+settings_backup.tmp
+.verba/
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.wav
+*.bak
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ---- 本机归档（旧截图等，不入库）----
+_attic/

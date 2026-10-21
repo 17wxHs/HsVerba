@@ -1,0 +1,385 @@
+{
+  "per_item": [
+    {
+      "id": "news-01",
+      "A": {
+        "accuracy": 3,
+        "fluency": 3,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "news-02",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "news-03",
+      "A": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 4,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "news-04",
+      "A": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "tech-01",
+      "A": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "tech-02",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "tech-03",
+      "A": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 4,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "tech-04",
+      "A": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "legal-01",
+      "A": {
+        "accuracy": 4,
+        "fluency": 2,
+        "terminology": 3
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "legal-02",
+      "A": {
+        "accuracy": 4,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 3,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 4,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "legal-03",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 4
+      }
+    },
+    {
+      "id": "legal-04",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 4,
+        "fluency": 5,
+        "terminology": 4
+      }
+    },
+    {
+      "id": "colloq-01",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 4
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "colloq-02",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "colloq-03",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "colloq-04",
+      "A": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "idiom-01",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 4,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 3,
+        "fluency": 4,
+        "terminology": 4
+      }
+    },
+    {
+      "id": "idiom-02",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 4,
+        "fluency": 3,
+        "terminology": 4
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "idiom-03",
+      "A": {
+        "accuracy": 3,
+        "fluency": 4,
+        "terminology": 4
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      }
+    },
+    {
+      "id": "idiom-04",
+      "A": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      },
+      "B": {
+        "accuracy": 5,
+        "fluency": 4,
+        "terminology": 5
+      },
+      "C": {
+        "accuracy": 5,
+        "fluency": 5,
+        "terminology": 5
+      }
+    }
+  ],
+  "summary": {
+    "A": {
+      "accuracy": 4.6,
+      "fluency": 4.4,
+      "terminology": 4.85,
+      "total": 13.85
+    },
+    "B": {
+      "accuracy": 4.6,
+      "fluency": 4.3,
+      "terminology": 4.9,
+      "total": 13.8
+    },
+    "C": {
+      "accuracy": 4.65,
+      "fluency": 4.7,
+      "terminology": 4.85,
+      "total": 14.2
+    }
+  },
+  "notes": "C 整体最稳，句子组织最接近中文母语习惯，长句拆分和连接词处理自然，术语（Pod、可分配容量、幂等性、回退/轮询）几乎全部到位，弱点在高语域法律文本的规范义，比如把 shall not 弱化为“不应”、“三十日”写成“三十天”。A 的亮点是意译能力强，口语和习语（completely swamped、burning the candle at both ends）翻得最传神，但稳定性差：法律条款里把术语占位符原样嵌进句子（“使……免受损害”），新闻长句凭空插入“在一定程度上”导致语义偏移。B 忠实但保守，语义几乎不漏，代价是偏直译、偏书面，惯用语照字面走（“蜡烛两头烧”），口语对话的语域压不住，个别法律连接词（“该期间内”）缺少先行词、without regard to 被译成“不适用”，属轻度法律语义走样。"
+}

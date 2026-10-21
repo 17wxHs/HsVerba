@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "version": "1.0",
+    "purpose": "翻译精度评测集：覆盖新闻/技术/法律/口语/习语五域，含强制术语表",
+    "note": "术语表命中即为客观可测项，不依赖主观判断"
+  },
+  "glossary": {
+    "pod": "Pod",
+    "idempotency key": "幂等键",
+    "allocatable capacity": "可分配容量",
+    "Licensee": "被许可方",
+    "Licensor": "许可方",
+    "indemnify and hold harmless": "赔偿并使……免受损害",
+    "services inflation": "服务业通胀",
+    "rate": "利率"
+  },
+  "items": [
+    {
+      "id": "news-01",
+      "domain": "news",
+      "direction": "en->zh",
+      "source": "The central bank raised rates by a quarter point, citing persistent services inflation that has proved stickier than policymakers expected.",
+      "must_terms": ["利率", "服务业通胀"]
+    },
+    {
+      "id": "news-02",
+      "domain": "news",
+      "direction": "en->zh",
+      "source": "Rescue teams worked through the night after the dam breach, with officials warning that the toll could still rise.",
+      "must_terms": []
+    },
+    {
+      "id": "news-03",
+      "domain": "news",
+      "direction": "en->zh",
+      "source": "Talks stalled on Tuesday after negotiators failed to agree on a framework for verifying compliance.",
+      "must_terms": []
+    },
+    {
+      "id": "news-04",
+      "domain": "news",
+      "direction": "en->zh",
+      "source": "The merger, announced in March, still requires approval from three separate antitrust regulators.",
+      "must_terms": []
+    },
+
+    {
+      "id": "tech-01",
+      "domain": "technical",
+      "direction": "en->zh",
+      "source": "The scheduler evicts pods that exceed their memory limit, then reschedules them onto nodes with sufficient allocatable capacity.",
+      "must_terms": ["Pod", "可分配容量"]
+    },
+    {
+      "id": "tech-02",
+      "domain": "technical",
+      "direction": "en->zh",
+      "source": "This endpoint is idempotent: retrying the same request with the same idempotency key will not create a duplicate charge.",
+      "must_terms": ["幂等键"]
+    },
+    {
+      "id": "tech-03",
+      "domain": "technical",
+      "direction": "en->zh",
+      "source": "Because the write is buffered, a crash before the flush can silently drop the last batch of records.",
+      "must_terms": []
+    },
+    {
+      "id": "tech-04",
+      "domain": "technical",
+      "direction": "en->zh",
+      "source": "The client falls back to polling when the server does not advertise support for server-sent events.",
+      "must_terms": []
+    },
+
+    {
+      "id": "legal-01",
+      "domain": "legal",
+      "direction": "en->zh",
+      "source": "The Licensee shall indemnify and hold harmless the Licensor from any claims arising out of the Licensee's use of the Software, except to the extent caused by the Licensor's gross negligence.",
+      "must_terms": ["被许可方", "许可方", "赔偿并使……免受损害"]
+    },
+    {
+      "id": "legal-02",
+      "domain": "legal",
+      "direction": "en->zh",
+      "source": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.",
+      "must_terms": []
+    },
+    {
+      "id": "legal-03",
+      "domain": "legal",
+      "direction": "en->zh",
+      "source": "Either party may terminate this Agreement upon thirty days' written notice if the other party commits a material breach and fails to cure it within that period.",
+      "must_terms": []
+    },
+    {
+      "id": "legal-04",
+      "domain": "legal",
+      "direction": "en->zh",
+      "source": "No waiver of any provision shall be deemed a further or continuing waiver of such provision.",
+      "must_terms": []
+    },
+
+    {
+      "id": "colloq-01",
+      "domain": "colloquial",
+      "direction": "en->zh",
+      "source": "Can you help me out here? I'm completely swamped and the deadline's tomorrow.",
+      "must_terms": []
+    },
+    {
+      "id": "colloq-02",
+      "domain": "colloquial",
+      "direction": "en->zh",
+      "source": "No worries, take your time — I'm not in a rush.",
+      "must_terms": []
+    },
+    {
+      "id": "colloq-03",
+      "domain": "colloquial",
+      "direction": "en->zh",
+      "source": "I'll ping you once I hear back from them, but honestly I wouldn't hold your breath.",
+      "must_terms": []
+    },
+    {
+      "id": "colloq-04",
+      "domain": "colloquial",
+      "direction": "en->zh",
+      "source": "That meeting could have been an email. Nobody got anything out of it.",
+      "must_terms": []
+    },
+
+    {
+      "id": "idiom-01",
+      "domain": "idiom",
+      "direction": "en->zh",
+      "source": "The project was dead in the water until she took the reins.",
+      "must_terms": []
+    },
+    {
+      "id": "idiom-02",
+      "domain": "idiom",
+      "direction": "en->zh",
+      "source": "He's been burning the candle at both ends and it's starting to show.",
+      "must_terms": []
+    },
+    {
+      "id": "idiom-03",
+      "domain": "idiom",
+      "direction": "zh->en",
+      "source": "这事儿八字还没一撇呢，别急着下结论。",
+      "must_terms": []
+    },
+    {
+      "id": "idiom-04",
+      "domain": "idiom",
+      "direction": "zh->en",
+      "source": "他们俩一个唱红脸一个唱白脸，配合得正好。",
+      "must_terms": []
+    }
+  ]
+}

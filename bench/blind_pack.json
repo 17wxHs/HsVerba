@@ -1,0 +1,194 @@
+[
+ {
+  "id": "news-01",
+  "source": "The central bank raised rates by a quarter point, citing persistent services inflation that has proved stickier than policymakers expected.",
+  "direction": "en->zh",
+  "must_terms": [
+   "利率",
+   "服务业通胀"
+  ],
+  "A": "央行将利率上调25个基点，理由是在一定程度上服务业通胀持续高企，其黏性超出决策者的预期。",
+  "B": "央行上调利率25个基点，理由是服务业通胀持续，其黏性已被证明超出决策者的预期。",
+  "C": "央行将利率上调25个基点，理由是服务业通胀持续高企，其粘性超出决策者的预期。"
+ },
+ {
+  "id": "news-02",
+  "source": "Rescue teams worked through the night after the dam breach, with officials warning that the toll could still rise.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "溃坝发生后，救援队伍连夜展开搜救，官员警告死亡人数可能进一步上升。",
+  "B": "溃坝之后，救援队伍通宵作业，官员警告死亡人数仍可能继续上升。",
+  "C": "溃坝事故发生后，救援队伍彻夜搜救，官员警告死亡人数仍可能继续上升。"
+ },
+ {
+  "id": "news-03",
+  "source": "Talks stalled on Tuesday after negotiators failed to agree on a framework for verifying compliance.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "由于谈判代表未能就核查履约情况的框架达成一致，谈判于周二陷入停滞。",
+  "B": "周二，谈判陷入停滞，此前谈判代表未能就核查履约情况的框架达成一致。",
+  "C": "周二谈判陷入僵局，因为谈判代表未能就核查履约情况的框架达成一致。"
+ },
+ {
+  "id": "news-04",
+  "source": "The merger, announced in March, still requires approval from three separate antitrust regulators.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "这项于3月宣布的并购交易仍需获得三家不同的反垄断监管机构批准。",
+  "B": "这桩于三月宣布的合并案，仍需获得三家独立反垄断监管机构的批准。",
+  "C": "这项于三月宣布的合并案，仍需获得三家独立反垄断监管机构的批准。"
+ },
+ {
+  "id": "tech-01",
+  "source": "The scheduler evicts pods that exceed their memory limit, then reschedules them onto nodes with sufficient allocatable capacity.",
+  "direction": "en->zh",
+  "must_terms": [
+   "Pod",
+   "可分配容量"
+  ],
+  "A": "调度器会驱逐超出内存限制的Pod，随后将它们重新调度到可分配容量充足的节点上。",
+  "B": "调度器会驱逐超出内存限制的 Pod，然后把它们重新调度到可分配容量充足的节点上。",
+  "C": "调度器会驱逐超出内存限制的 Pod，然后将其重新调度到可分配容量充足的节点上。"
+ },
+ {
+  "id": "tech-02",
+  "source": "This endpoint is idempotent: retrying the same request with the same idempotency key will not create a duplicate charge.",
+  "direction": "en->zh",
+  "must_terms": [
+   "幂等键"
+  ],
+  "A": "该端点具备幂等性：使用同一个幂等键重试同一请求不会产生重复扣款。",
+  "B": "该端点是幂等的：使用同一个幂等键重试同一请求，不会产生重复扣款。",
+  "C": "该接口具有幂等性：使用相同的幂等键重试同一请求不会产生重复扣款。"
+ },
+ {
+  "id": "tech-03",
+  "source": "Because the write is buffered, a crash before the flush can silently drop the last batch of records.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "由于写入经过缓冲，如果在刷新之前发生崩溃，最后一批记录可能会悄无声息地丢失。",
+  "B": "由于写入是带缓冲的，若在刷写之前发生崩溃，最后一批记录可能会被悄无声息地丢弃。",
+  "C": "由于写入先进入缓冲区，若在刷盘前发生崩溃，最后一批记录可能会被静默丢弃。"
+ },
+ {
+  "id": "tech-04",
+  "source": "The client falls back to polling when the server does not advertise support for server-sent events.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "当服务器未声明支持服务器发送事件时，客户端会退回到轮询方式。",
+  "B": "当服务器未声明支持服务器发送事件时，客户端会退回到轮询方式。",
+  "C": "当服务器未声明支持服务器发送事件时，客户端会回退到轮询方式。"
+ },
+ {
+  "id": "legal-01",
+  "source": "The Licensee shall indemnify and hold harmless the Licensor from any claims arising out of the Licensee's use of the Software, except to the extent caused by the Licensor's gross negligence.",
+  "direction": "en->zh",
+  "must_terms": [
+   "被许可方",
+   "许可方",
+   "赔偿并使……免受损害"
+  ],
+  "A": "被许可方应就因被许可方使用本软件而引起的任何索赔，向许可方赔偿并使……免受损害，但因许可方重大过失造成的部分除外。",
+  "B": "被许可方应就因其使用本软件而引起的任何索赔，向许可方作出赔偿并使其免受损害，但因许可方重大过失所致的部分除外。",
+  "C": "被许可方应就因其使用本软件而引起的任何索赔，向许可方作出赔偿并使其免受损害，但因许可方重大过失所致的部分除外。"
+ },
+ {
+  "id": "legal-02",
+  "source": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "本协议受特拉华州法律管辖并依其解释，不考虑其法律冲突原则。",
+  "B": "本协议受特拉华州法律管辖并依其解释，不适用其法律冲突原则。",
+  "C": "本协议受特拉华州法律管辖并依其解释，不考虑其法律冲突原则。"
+ },
+ {
+  "id": "legal-03",
+  "source": "Either party may terminate this Agreement upon thirty days' written notice if the other party commits a material breach and fails to cure it within that period.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "如一方构成重大违约且未在三十日内予以纠正，另一方可在发出三十日书面通知后终止本协议。",
+  "B": "若一方构成重大违约，且未在该期间内予以补救，另一方可在提前三十日书面通知后终止本协议。",
+  "C": "如一方构成重大违约且未在该期限内予以补救，另一方可在提前三十天书面通知后终止本协议。"
+ },
+ {
+  "id": "legal-04",
+  "source": "No waiver of any provision shall be deemed a further or continuing waiver of such provision.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "对任何条款的放弃，均不得视为对该条款的进一步放弃或持续放弃。",
+  "B": "对任何条款的放弃，均不得被视为对该条款的进一步放弃或持续放弃。",
+  "C": "对任何条款的放弃，均不应视为对该条款的进一步放弃或持续放弃。"
+ },
+ {
+  "id": "colloq-01",
+  "source": "Can you help me out here? I'm completely swamped and the deadline's tomorrow.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "你能帮我一把吗？我手头的活儿实在堆成山了，明天就到期了。",
+  "B": "能帮我一把吗？我手头的活儿实在太多了，截止时间就是明天。",
+  "C": "你能帮我一把吗？我忙得焦头烂额，截止日期就是明天。"
+ },
+ {
+  "id": "colloq-02",
+  "source": "No worries, take your time — I'm not in a rush.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "没事，你慢慢来，我不着急。",
+  "B": "没事，你慢慢来，我不赶时间。",
+  "C": "没事，你慢慢来，我不着急。"
+ },
+ {
+  "id": "colloq-03",
+  "source": "I'll ping you once I hear back from them, but honestly I wouldn't hold your breath.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "他们一给我回信我就通知你，不过说实话，别抱太大希望。",
+  "B": "他们一给我回信儿，我就通知你，不过说实话，别抱太大希望。",
+  "C": "他们一给我回信我就告诉你，不过说实话，别抱太大希望。"
+ },
+ {
+  "id": "colloq-04",
+  "source": "That meeting could have been an email. Nobody got anything out of it.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "那个会其实发封邮件就够了，谁也没从里面得到什么。",
+  "B": "那个会其实发封邮件就足够了，谁也没从里面得到什么。",
+  "C": "那个会本来发封邮件就够了，谁也没从里面得到什么。"
+ },
+ {
+  "id": "idiom-01",
+  "source": "The project was dead in the water until she took the reins.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "这个项目原本已经彻底搁浅，直到她接手才重新运转起来。",
+  "B": "在她接手之前，这个项目已经彻底没戏了。",
+  "C": "在她接手之前，这个项目一直毫无起色。"
+ },
+ {
+  "id": "idiom-02",
+  "source": "He's been burning the candle at both ends and it's starting to show.",
+  "direction": "en->zh",
+  "must_terms": [],
+  "A": "他长期两头奔波、日夜操劳，如今已经明显有些吃不消了。",
+  "B": "他一直是蜡烛两头烧，现在已经开始显疲态了。",
+  "C": "他一直两头透支、疲于奔命，如今已经明显吃不消了。"
+ },
+ {
+  "id": "idiom-03",
+  "source": "这事儿八字还没一撇呢，别急着下结论。",
+  "direction": "zh->en",
+  "must_terms": [],
+  "A": "Nothing is settled yet, so don't jump to conclusions.",
+  "B": "This is nowhere near settled yet, so don't jump to conclusions.",
+  "C": "Nothing is even close to being settled yet, so don't jump to conclusions."
+ },
+ {
+  "id": "idiom-04",
+  "source": "他们俩一个唱红脸一个唱白脸，配合得正好。",
+  "direction": "zh->en",
+  "must_terms": [],
+  "A": "The two of them play good cop and bad cop, and they complement each other perfectly.",
+  "B": "One of them plays the bad cop and the other plays the good cop, and together they make a perfect team.",
+  "C": "One plays the good cop and the other plays the bad cop — they make a perfect team."
+ }
+]

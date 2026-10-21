@@ -1,0 +1,138 @@
+HsVerba Non-Commercial License 1.0
+HsVerba 非商业许可 1.0
+
+Copyright (c) 2026 Hs. All rights reserved. 保留所有权利。
+
+────────────────────────────────────────────────────────
+中文要点（完整条款见下方英文部分；两者不一致时以英文为准）
+────────────────────────────────────────────────────────
+
+【你可以】
+  · 免费下载、安装、使用本软件，用于个人用途
+  · 阅读、学习、修改源代码
+  · 免费转发给他人，无论原样还是修改版
+  · 用于教学、学术研究、非营利组织
+
+【你不可以】
+  · 商业使用：任何以营利为目的的使用，包括在公司的生产经营中部署
+  · 二次售卖：出售、转售、出租、收费分发，或打包进任何付费产品 / 付费服务
+  · 收费托管：把本软件或其修改版做成收费的在线服务（SaaS）
+  · 去除或隐藏作者署名与本许可文件
+  · 用本项目名义做背书或背书式的宣传
+
+【想商用】
+  需另行取得作者的书面授权。
+
+【说明】
+  · 修改后分发，必须注明你改过，并保留本许可与署名
+  · 违反上述任一条，授权立即自动终止，你必须删除所有副本
+  · 本软件按"现状"提供，不附带任何担保
+
+────────────────────────────────────────────────────────
+
+1. DEFINITIONS
+
+1.1 "Software" means the HsVerba source code, binaries, documentation and
+    any accompanying files distributed under this License, including any
+    modified version.
+
+1.2 "Commercial Use" means any use of the Software that is intended for or
+    directed toward commercial advantage or monetary compensation. This
+    includes, without limitation:
+      (a) deployment in the production operations of a for-profit entity;
+      (b) integration into a product, product bundle, or service offered
+          for a fee;
+      (c) providing paid services (hosting, consulting, support, training)
+          whose value derives substantially from the Software;
+      (d) internal business use by a for-profit entity beyond the
+          evaluation period in Section 2.2.
+
+1.3 "Sale" means selling, reselling, renting, leasing, sublicensing for a
+    fee, charging for distribution or download, placing the Software behind
+    a paywall, or bundling it with any paid product or paid service.
+
+1.4 "You" means the individual or legal entity exercising rights under this
+    License.
+
+2. GRANT OF RIGHTS
+
+2.1 Subject to the conditions and limitations below, You are granted a
+    worldwide, royalty-free, non-exclusive, non-transferable license to:
+      (a) use, copy and install the Software for personal, educational,
+          academic research, or non-profit purposes;
+      (b) modify the Software and create derivative works;
+      (c) redistribute the Software and your derivative works, free of
+          charge, to any third party.
+
+2.2 Evaluation: a for-profit entity may use the Software without charge for
+    up to thirty (30) days solely to evaluate whether to obtain a commercial
+    license. Any continued or production use requires a commercial license.
+
+3. CONDITIONS
+
+3.1 You must retain, in all copies and derivative works:
+      (a) the above copyright notice;
+      (b) this License file in full, unmodified;
+      (c) clear attribution to the original author, visible to end users
+          (in an "About" screen, README, or equivalent).
+
+3.2 If You distribute a modified version, You must state clearly that the
+    version has been modified, and must not present it as the original.
+
+3.3 You may not use the name "HsVerba", the author's name, or any project
+    marks to endorse or promote your derivative work without prior written
+    permission.
+
+4. PROHIBITED USES
+
+4.1 You may not make Commercial Use of the Software.
+
+4.2 You may not Sell the Software, in whole or in part, whether original or
+    modified, and whether alone or as part of another product.
+
+4.3 You may not remove, obscure, or alter any copyright notice, author
+    attribution, or this License from the Software.
+
+4.4 You may not provide the Software, or any derivative work, as a paid or
+    monetized hosted service.
+
+5. COMMERCIAL LICENSE
+
+5.1 Commercial Use requires a separate written commercial license from the
+    copyright holder. Requests should be directed to the author through the
+    project's repository.
+
+5.2 Nothing in this License grants any trademark rights.
+
+6. TERMINATION
+
+6.1 This License and all rights granted under it terminate automatically and
+    immediately if You breach any of its terms.
+
+6.2 On termination You must stop all use and destroy all copies of the
+    Software in your possession or control, including modified versions.
+
+6.3 Sections 4, 6, 7 and 8 survive termination.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. THE AUTHOR DOES NOT
+WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+8. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+9. MISCELLANEOUS
+
+9.1 This License is the entire agreement concerning the Software and
+    supersedes any prior license, including the MIT License previously
+    applied to earlier versions of this project.
+
+9.2 If any provision is held unenforceable, the remaining provisions remain
+    in full force.

@@ -1,0 +1,14 @@
+# 统一换行，避免 Windows 下 CRLF 噪声
+* text=auto eol=lf
+
+# 二进制
+*.png binary
+*.ico binary
+*.jpg binary
+*.exe binary
+*.msi binary
+*.wav binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.pdf binary
