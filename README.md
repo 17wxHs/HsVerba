@@ -1,5 +1,10 @@
 # HsVerba
 
+[![检查](https://github.com/17wxHs/HsVerba/actions/workflows/ci.yml/badge.svg)](https://github.com/17wxHs/HsVerba/actions/workflows/ci.yml)
+[![构建并发布](https://github.com/17wxHs/HsVerba/actions/workflows/release.yml/badge.svg)](https://github.com/17wxHs/HsVerba/actions/workflows/release.yml)
+[![版本](https://img.shields.io/github/v/release/17wxHs/HsVerba?label=%E7%89%88%E6%9C%AC&color=2ea44f)](https://github.com/17wxHs/HsVerba/releases)
+[![许可证](https://img.shields.io/github/license/17wxHs/HsVerba?label=%E8%AE%B8%E5%8F%AF%E8%AF%81&color=blue)](LICENSE)
+
 **本地优先的翻译工作台** —— 一个 exe，把划词翻译、文档翻译、截图 OCR、语音字幕全装进来。自带密钥（BYOK），不经过任何中间服务器。
 
 [功能](#功能) · [下载](#下载) · [快速开始](#快速开始) · [从源码构建](#从源码构建) · [隐私](#隐私与安全) · [详细文档](app/README.md)

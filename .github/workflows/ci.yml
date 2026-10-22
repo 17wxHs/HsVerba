@@ -1,0 +1,49 @@
+name: 检查
+
+# 每次推 main 或提 PR 时跑一遍：TypeScript 类型检查 + 前端构建 + Rust 编译检查。
+# 只做校验，不产出安装包，通常 3–6 分钟。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: 类型检查与编译
+    runs-on: windows-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: 安装 Rust 稳定版
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+
+      - name: 缓存 Rust 编译产物
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: app/src-tauri -> target
+
+      - name: 安装前端依赖
+        run: npm ci
+        working-directory: app
+
+      - name: TypeScript 类型检查 + 前端构建
+        run: npm run build
+        working-directory: app
+
+      - name: Rust 编译检查
+        run: cargo check --all-targets
+        working-directory: app/src-tauri
