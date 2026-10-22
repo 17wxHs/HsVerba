@@ -37,7 +37,7 @@ DeepL 的翻译质量来自它服务端的模型，客户端只是个 131 MB 的
 
 ## 下载
 
-到 [Releases](../../releases) 下载任意一个：
+到 [Releases](https://github.com/17wxHs/HsVerba/releases) 下载任意一个：
 
 | 文件 | 说明 |
 |---|---|
@@ -71,7 +71,7 @@ DeepL 的翻译质量来自它服务端的模型，客户端只是个 131 MB 的
 前置：Node.js 18+、Rust 1.77+、Visual Studio C++ Build Tools（MSVC）。
 
 ```bash
-git clone https://github.com/<your-name>/HsVerba.git
+git clone https://github.com/17wxHs/HsVerba.git
 cd HsVerba/app
 npm install
 npm run tauri dev     # 开发模式
